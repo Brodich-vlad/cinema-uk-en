@@ -1,0 +1,53 @@
+export const dataTextEn = {
+    lang:"en",
+    text_premiere:"Premiere",
+    home_btn:' Go back',
+    schedule:{
+        title:'Schedule',
+        time_text:' Time ',
+        price_text:' Price ',
+        date_text:'Date : ',
+        row_text:' Row: ',
+        place_text:' Place: ',
+    },
+    movies_section:{
+        title:'Movies',
+        error_text:'Movie not found.',
+        error_text1:'Click the icon to view all.',
+        prev_btn:'Previous',
+        next_btn:'Next',
+        page:'Page ',
+        home_btn:'Home',
+    },
+    stars_section:{
+        title:'Popular actors',
+        details_title:'Movies with the participation of this actor.'
+    },
+    details_section:{
+        genres_title:'Genres :',
+        trailer_btn:'Watch the trailer',
+        schedule_title:'Schedule of sessions and ticket prices.',
+        choose_btn:'Choose a place',
+        info_title:'Overview',
+        companies_title:'Production companies :',
+    },
+    tiket_page:{
+        story_title:'Booking history',
+        ticket_title:'My tickets:',
+        hall_title:'Choose a place',
+        occup_seat:'Occupied seat',
+        free_space:'Free space',
+        select_space:'Selected place',
+        form_title:'Your tickets:',
+        total_price: 'Total price: ',
+        reser_seats_btn:'Reserve seats',
+        set_date:'Session date: ',
+        set_time:'Session time: ',
+        modal_title:'Enjoy watching!',
+    },
+    contacts:{
+        title:'Developer contacts:',
+        btn_text:'More contacts ...',
+    },
+    footer_date:'10 September 2023',
+}

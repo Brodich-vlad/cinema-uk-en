@@ -1,0 +1,57 @@
+.tiket_page_info_story{
+    width: 100%;
+    background-color: #05161d8a;
+    margin: 1% auto;
+    padding: 2%;
+    border-radius: .6rem;
+}
+.info_story_title{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.info_story_title_second{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgb(255, 251, 0);
+}
+.info_story_text{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.info_story_text > span{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.info_story_list_item{
+    background-color: #05161d8a;
+    border: 1px solid white;
+    border-radius: .3rem;
+    padding: 1rem;
+    margin: .5rem;
+}
+.item_tickets_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 550px){
+    .info_story_title{
+        font-size: 1.8rem;
+    }
+
+    .info_story_title_second{
+        font-size: 1.4rem;
+    }
+    .info_story_text{
+        font-size: 1.2rem;
+    }
+    .info_story_text > span{
+        font-size: 1.3rem;
+    }
+}

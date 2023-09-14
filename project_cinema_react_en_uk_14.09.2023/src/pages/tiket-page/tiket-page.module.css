@@ -1,0 +1,76 @@
+.tiket_page{
+    min-height: 90vh;
+    width: 100%;
+    margin: 0 auto;
+    background: #05161d;
+    background-color: #050e12a8;
+    color: #ffffff;
+    background-attachment: fixed;
+}
+
+.details_btn_back{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: .4rem;
+    padding: .5rem 1rem;
+    margin: 5rem 0 0 5%;
+    opacity: .8;
+    transition: all .3s;
+    z-index: 2;
+}
+.details_btn_back:focus,
+.details_btn_back:hover{
+    text-decoration: none;
+    color: white;
+    transform: translateX(-.5rem);
+    opacity: 1;
+}
+
+
+.tiket_page_title_wrapper{
+    font-family: 'Balsamiq Sans', cursive;
+    padding: 2rem 5%;
+}
+
+.tiket_page_title{
+    font-family: 'Balsamiq Sans', cursive;
+    line-height: 1;
+    font-size: 3rem;
+    font-weight: 700; 
+}
+.tiket_page_title_second {
+    font-size: 1.8rem;
+    color: rgb(215, 252, 68);
+    line-height: 1;
+    font-weight: 500;
+}
+.tiket_page_title_rating {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.title_rating_img {
+    display: block;
+    width: 2rem;
+    margin-right: .5rem;
+}
+
+.tiket_page_wrapper{
+    width: 90%;
+    margin: 2% auto;
+    border-radius: .5rem;
+    background-color: rgba(11, 36, 36, 0.8);
+}
+
+
+@media (max-width: 1020px){
+    .tiket_page_wrapper{
+        width: 99%;
+    }
+}
