@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.85515fd3.css",
-    "main.js": "/static/js/main.d7ebab15.js",
+    "main.css": "/static/css/main.5f173953.css",
+    "main.js": "/static/js/main.c355757b.js",
     "static/media/start-film.gif": "/static/media/start-film.4570db4281abe72c931a.gif",
     "static/media/fon-kinolenta.jpg": "/static/media/fon-kinolenta.e0f9a1960486407d9ae9.jpg",
     "static/media/phonoteka.jpg": "/static/media/phonoteka.03c275895562d7f3b484.jpg",
@@ -26,11 +26,11 @@
     "static/media/house.svg": "/static/media/house.1388a36c6217cad1dd9bad710a765bac.svg",
     "static/media/projects_white.svg": "/static/media/projects_white.1521d25166cf9b3e60a56ec5310e3fd5.svg",
     "static/media/line.svg": "/static/media/line.0ac4f8fbabe109719579862821aa13f5.svg",
-    "main.85515fd3.css.map": "/static/css/main.85515fd3.css.map",
-    "main.d7ebab15.js.map": "/static/js/main.d7ebab15.js.map"
+    "main.5f173953.css.map": "/static/css/main.5f173953.css.map",
+    "main.c355757b.js.map": "/static/js/main.c355757b.js.map"
   },
   "entrypoints": [
-    "static/css/main.85515fd3.css",
-    "static/js/main.d7ebab15.js"
+    "static/css/main.5f173953.css",
+    "static/js/main.c355757b.js"
   ]
 }

@@ -118,11 +118,10 @@ export default function DetailsPage(){
             />}
 
             
-           {trailer && 
+           {openPlayer && 
                 <Player 
-                    video={trailer} 
-                    close={clickOpenPlayer} 
-                    flag={openPlayer}/>
+                    video={trailer && trailer} 
+                    close={clickOpenPlayer} />
             }
         </main>
     )
