@@ -21,7 +21,7 @@ export default function Slider({ callbackLocation }) {
 
     useEffect(() => {
 		!filmsSlider && setFilmsSlider(randomObjects(films));
-	}, [filmsSlider,films]);
+	}, []);
 
     const createCarouselItems = (data) =>{
         const Items = data.map(({id, name, info, rating, backdrop, premiere },i)=>{

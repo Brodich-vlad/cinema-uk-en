@@ -70,31 +70,30 @@ export default function LayoutPage() {
 
     // Робимо запит на сервер.
     useEffect(() => {
-        setLoader(true)
+			setLoader(true);
 
-        window.scrollTo({
-            top: 0,
-            left: 0,
-        });
+			window.scrollTo({
+				top: 0,
+				left: 0
+			});
 
-        if (search === '') {
-            myFetch(urlFilms(lang,filmsNumPage))
-                .then(response => filtrError(response, 'films', true))
-                .catch(err => console.error(err));
-        }
-        else {
-            myFetch(urlSearch(search,lang,filmsNumPage))
-            .then(response => filtrError(response, 'films'))
-            .catch(err => console.error(err));
-        }
-    }, [lang, filmsNumPage, search]);
+			if (search === '') {
+				myFetch(urlFilms(lang, filmsNumPage))
+					.then(response => filtrError(response, 'films', true))
+					.catch(err => console.error(err));
+			} else {
+				myFetch(urlSearch(search, lang, filmsNumPage))
+					.then(response => filtrError(response, 'films'))
+					.catch(err => console.error(err));
+			}
+		}, [lang, filmsNumPage, search]);
 
 
-    useEffect(()=>{
-        myFetch(urlStars(lang))
-            .then(response => filtrError(response, 'stars'))
-            .catch(err => console.error(err));
-    },[lang]);
+    useEffect(() => {
+			myFetch(urlStars(lang))
+				.then(response => filtrError(response, 'stars'))
+				.catch(err => console.error(err));
+		}, [lang]);
 
 
     // Функції пагінації.
