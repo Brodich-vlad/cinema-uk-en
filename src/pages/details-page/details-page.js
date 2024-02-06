@@ -58,8 +58,8 @@ export default function DetailsPage(){
     }
     // Знаходимо фільм по ід.
     useEffect(() => {
-            setFilm(searchObject(id,films))
-    },[])
+		setFilm(searchObject(id, films));
+	}, [id, films]);
 
     useEffect(() => {
         // Прокручуємо сторінку в гору.
